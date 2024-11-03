@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Workout Web",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
