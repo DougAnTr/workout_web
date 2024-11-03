@@ -6,7 +6,7 @@ const port = env.PORT;
 
 const start = () => {
   app.listen(port, () => {
-    console.log(`🚀 Server running on port: ${port}`);
+    console.info(`🚀 Server running on port: ${port}`);
   });
 };
 
