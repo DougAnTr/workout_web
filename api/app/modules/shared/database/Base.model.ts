@@ -4,6 +4,7 @@ import { ObjectId } from 'mongoose';
 @modelOptions({
   schemaOptions: {
     timestamps: true,
+    versionKey: false,
   },
 })
 export class BaseModel {
