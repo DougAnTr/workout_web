@@ -1,3 +1,6 @@
+import 'reflect-metadata';
+
+import './config';
 import database from './database';
 import server from './server';
 
